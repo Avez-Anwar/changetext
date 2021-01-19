@@ -17,7 +17,7 @@ class App extends React.Component {
       <div>
         <input onChange={this.handleChange} />
         <br />
-        <h1>Text is changed here " {this.state.text} "</h1>
+        <h1>Text the changed here " {this.state.text} "</h1>
       </div>
     );
   }
